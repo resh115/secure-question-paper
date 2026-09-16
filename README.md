@@ -55,7 +55,7 @@ B2_BUCKET_NAME=
 FIREBASE_SERVICE_ACCOUNT=
 ```
 
-> Do not commit `.env` files, Firebase service-account files, or secret keys to GitHub. Configure them through environment variables in the deployment platform.
+
 
 ## System Flow
 
