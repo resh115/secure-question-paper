@@ -125,7 +125,7 @@ Open another terminal:
 ``` bash
 cd backend
 python -m venv venv
-.env\Scriptsctivate
+.\venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
@@ -133,10 +133,10 @@ Create `backend/.env`:
 
 ``` env
 MONGO_URI=
-DATABASE_NAME=et_hackathon
+DATABASE_NAME=
 B2_KEY_ID=
 B2_APPLICATION_KEY=
-B2_BUCKET_NAME=secure-question-paper-shares
+B2_BUCKET_NAME=
 FIREBASE_SERVICE_ACCOUNT=firebase-service-account.json
 ```
 
