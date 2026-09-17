@@ -280,5 +280,3 @@ AES-256 + Shamir 3-of-5 test PASSED
 -   Release is controlled using IST-based scheduling.
 -   Decryption occurs only during authorized release.
 -   Audit logs record security and application events.
--   `.env` files and Firebase service-account credentials must never be
-    committed to GitHub.
